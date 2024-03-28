@@ -16,6 +16,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: supermini_split_left
+    shield: bradDactylV1_left
   - board: nice_nano_v2
-    shield: supermini_split_right
+    shield: bradDactylV1_right
