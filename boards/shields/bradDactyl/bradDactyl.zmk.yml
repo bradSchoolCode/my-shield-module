@@ -1,0 +1,11 @@
+file_format: "1"
+id: bradDactyl
+name: bradDactyl Split Keyboard
+type: shield
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - bradDactyl_left
+  - bradDactyl_right
