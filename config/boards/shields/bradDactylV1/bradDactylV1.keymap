@@ -23,7 +23,7 @@
     &kp LCTRL  &kp A    &kp S    &kp D    &kp F    &kp G                                               &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp QUOT
     &kp LGUI   &kp Z    &kp X    &kp C    &kp V    &kp B                                               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RBKT
                &kp LEFT &kp RIGHT &mo LAYER_1 &kp SPACE                                                &kp RET   &mo LAYER_1 &kp UP    &kp DOWN
-               &kp LALT &kp GRAVE &kp LSFT &kp BSPC                                                   &kp ESC   &kp RSFT    &kp BSLH  &kp DEL
+               &kp LALT &kp GRAVE &kp LSFT    &kp BSPC                                                 &kp ESC   &kp RSFT    &kp BSLH  &kp DEL
             >;
         };
 lower_layer {
@@ -40,7 +40,7 @@ lower_layer {
                 &trans  &kp 4    &kp 5    &kp 6    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &kp 7    &kp 8    &kp 9    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
                        &trans  &trans  &trans   &kp 0                                                  &trans  &trans  &trans  &trans
-                       &trans  &trans  &trans   &trans                                                  &trans  &trans  &trans  &trans
+                       &trans  &trans  &trans   &trans                                                 &trans  &trans  &trans  &trans
             >;
         };
 
