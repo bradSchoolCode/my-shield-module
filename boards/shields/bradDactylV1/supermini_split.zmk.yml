@@ -1,17 +1,17 @@
 file_format: "1"
-id: supermini_split
-name: Supermini Split Keyboard
+id: bradDactylV1
+name: bradDactylV1 Split Keyboard
 type: shield
-#url: https://example.com/supermini-split
+url: "https://example.com/bradDactylV1" # Use an actual URL if available
 requires:
   - nrf52840
 exposes: []
 features:
   - keys
-  # Uncomment the following lines if applicable:
-  # - underglow
-  # - encoder
-  # - display
+# Uncomment the following lines if applicable:
+# - underglow
+# - encoder
+# - display
 siblings:
-  - supermini_split_left
-  - supermini_split_right
+  - bradDactylV1_left
+  - bradDactylV1_right
