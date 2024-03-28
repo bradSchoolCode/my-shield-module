@@ -6,10 +6,6 @@ requires: [pro_micro]
 exposes: []
 features:
   - keys
-  # Uncomment the following lines if applicable:
-  # - underglow
-  # - encoder
-  # - display
 siblings:
   - bradDactylV1_left
   - bradDactylV1_right
