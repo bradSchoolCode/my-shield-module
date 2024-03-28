@@ -1,14 +1,14 @@
-if SHIELD_BRADDACTYL_LEFT
+if SHIELD_BRADDACTYLV1_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "bradDactyl"
+    default "bradDactylV1"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_BRADDACTYL_LEFT || SHIELD_BRADDACTYL_RIGHT
+if SHIELD_BRADDACTYLV1_LEFT || SHIELD_BRADDACTYLV1_RIGHT
 
 config ZMK_SPLIT
     default y

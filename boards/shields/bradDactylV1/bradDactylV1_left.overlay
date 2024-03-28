@@ -1,12 +1,7 @@
-#include "bradDactyl_common.dtsi"
-
-&default_transform {
-    col-offset = <6>;
-};
+#include "bradDactylV1_common.dtsi"
 
 &kscan0 {
     col-gpios
-        // Assuming a direct mirror of the left half
         = <&gpio0 22 GPIO_ACTIVE_HIGH>
         , <&gpio0 24 GPIO_ACTIVE_HIGH>
         , <&gpio0 4 GPIO_ACTIVE_HIGH>

@@ -1,0 +1,5 @@
+config SHIELD_BRADDACTYLV1_LEFT
+    def_bool $(shields_list_contains,bradDactylV1_left)
+
+config SHIELD_BRADDACTYLV1_RIGHT
+    def_bool $(shields_list_contains,bradDactylV1_right)
