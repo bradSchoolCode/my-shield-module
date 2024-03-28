@@ -8,12 +8,10 @@
 # board: [ "nice_nano_v2" ]
 # shield: [ "corne_left", "corne_right" ]
 include:
-  - board: nrf52840
-    shield: supermini_split_left
-    artifact-name: supermini_split_left_firmware
-  - board: nrf52840
-    shield: supermini_split_right
-    artifact-name: supermini_split_right_firmware
+  - board: nrf52840dk_nrf52840
+    shield: bradDactylV1_left
+  - board: nrf52840dk_nrf52840
+    shield: bradDactylV1_right
   # Example for additional customization
   # - board: nice_nano_v2
   #   shield: corne_left
