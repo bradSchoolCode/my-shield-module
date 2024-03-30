@@ -1,8 +1,8 @@
 file_format: "1"
 id: bradDactylV1
-name: bradDactylV1 Split Keyboard
+name: bradDactylV1
 type: shield
-requires: [gpio]
+requires: [pro_micro]
 exposes: []
 features:
   - keys
