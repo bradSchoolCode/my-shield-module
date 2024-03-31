@@ -22,4 +22,4 @@
 #  - board: nice_nano_v2
 #    shield: settings_reset
 board: [ "nice_nano_v2" ]
-shield: [ "bradDactylV1", "bradDactylV1_right", "settings_reset" ]
+shield: [ "bradDactylV1_left", "bradDactylV1_right", "settings_reset" ]
