@@ -29,29 +29,21 @@
                 >;
         };
         LAYER_1 {
-            // ---------------------------------------------layer_1---------------------------------------------------------------
-            // TAB |    Q    |    1    |    2    |    3    |    T    |                   |    Y    |    U    |    I    |    O    |    P    |   [
-            // Ctrl|    1    |    2    |    3    |    4    |    5    |                   |    6    |    7    |    8    |    9    |    0    |   '
-            //SUPER|    Z    |    7    |    8    |    9    |    B    |                   |    N    |    M    |    ,    |    .    |    /    |   ]
-            //     |       | Lft Arrow | Rht Arrow |     |         |                     |         |        | Up Arrow | Dwn Arrow |       |
-            //                              |  Layer up    |   Space   |            |   ENTER   | Layer dwn  |
-            //                              |    Shift     |    BSPC   |            |    Escape |   Shift   |
-            //                              |    L-Alt    |      `     |            |     \     |   Delete  |
             bindings = <
-                &trans  &kp N1    &kp N2    &kp N3    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &kp N1    &kp N2    &kp N3    &kp N4  &kp N5                                      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-                &trans  &kp N7    &kp N8    &kp N9    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans   &kp N0                                                  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans   &trans                                                 &trans  &trans  &trans  &trans
+                &trans  &kp N1    &kp N2    &kp N3    &trans  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &kp N1    &kp N2    &kp N3    &kp N4  &kp N5                           &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+                &trans  &kp N7    &kp N8    &kp N9    &trans  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans   &kp N0                                       &trans  &trans  &trans  &trans
+                &trans  &trans  &trans   &trans                                      &trans  &trans  &trans  &trans
                 >;
         };
         LAYER_2 {
             bindings = <
-                &trans  &kp N1    &kp N2    &kp N3    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &kp EXCL    &kp AT    &kp POUND    &kp DOLLAR  &kp PRCNT                       &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp trans
-                &trans  &kp N7    &kp N8    &kp N9    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans   &kp N0                                                  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans   &trans                                                 &trans  &trans  &trans  &trans
+                &trans  &kp N1    &kp N2    &kp N3    &trans  &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &kp EXCL    &kp AT    &kp POUND    &kp DOLLAR  &kp PRCNT                  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp trans
+                &trans  &kp N7    &kp N8    &kp N9    &trans  &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans   &kp N0                                                   &trans  &trans  &trans  &trans
+                &trans  &trans  &trans   &trans                                                   &trans  &trans  &trans  &trans
                 >;
         };
     };
