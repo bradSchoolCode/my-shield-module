@@ -26,7 +26,7 @@
                 &kp LGUI   &kp Z    &kp X    &kp C    &kp V    &kp B                                               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RBKT
                 &kp LEFT &kp RIGHT &mo LAYER_1 &kp SPACE                                                           &kp RET   &mo LAYER_2 &kp UP    &kp DOWN
                 &kp LALT &kp GRAVE &kp LSFT    &kp BSPC                                                            &kp ESC   &kp RSFT    &kp BSLH  &kp DEL
-            >;
+                >;
         };
         LAYER_1 {
             bindings = <
@@ -35,7 +35,7 @@
                 &trans  &kp N7    &kp N8    &kp N9    &trans  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans    &trans    &kp N0                                             &trans  &trans  &trans  &trans
                 &trans  &trans    &trans    &trans                                             &trans  &trans  &trans  &trans
-            >;
+                >;
         };
         LAYER_2 {
             bindings = <
@@ -44,7 +44,7 @@
                 &trans  &kp N7    &kp N8    &kp N9    &trans     &trans                           &trans     &trans    &trans    &trans    &trans    &trans
                 &trans  &trans    &trans    &kp N0                                                &trans     &trans    &trans    &trans
                 &trans  &trans    &trans    &trans                                                &trans     &trans    &trans    &trans
-            >;
+                >;
         };
     };
 };
