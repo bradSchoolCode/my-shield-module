@@ -2,8 +2,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define LAYER_0 0
-#define LAYER_1 1
+#define default_layer 0
+#define LOWER 1
 
 
 / {
@@ -23,12 +23,11 @@
                 &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T                                               &kp Y     &kp U     &kp I     &kp O     &kp P    &kp LBKT
                 &kp LCTRL  &kp A    &kp S    &kp D    &kp F    &kp G                                               &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp QUOT
                 &kp LGUI   &kp Z    &kp X    &kp C    &kp V    &kp B                                               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RBKT
-                &kp LEFT &kp RIGHT &mo LAYER_1 &kp SPACE                                                &kp RET   &mo LAYER_1 &kp UP    &kp DOWN
-                &kp LALT &kp GRAVE &kp LSFT    &kp BSPC                                                 &kp ESC   &kp RSFT    &kp BSLH  &kp DEL
+                &kp LEFT &kp RIGHT &mo LOWER &kp SPACE                                                &kp RET   &mo LAYER_1 &kp UP    &kp DOWN
+                &kp LALT &kp GRAVE &kp LSFT  &kp BSPC                                                 &kp ESC   &kp RSFT    &kp BSLH  &kp DEL
                 >;
         };
-        layer_1 {
-            bindings = <
+        LOWER {
                 // ---------------------------------------------lower layer or layer_1---------------------------------------------------------------
                 // TAB |    Q    |    W    |    E    |    R    |    T    |                   |    Y    |    U    |    I    |    O    |    P    |   [
                 // Ctrl|    A    |    S    |    D    |    F    |    G    |                   |    H    |    J    |    K    |    L    |    ;    |   '
@@ -37,6 +36,7 @@
                 //                              |  Layer up    |   Space   |            |   ENTER   | Layer dwn  |
                 //                              |    Shift     |    BSPC   |            |    Escape |   Shift   |
                 //                              |    L-Alt    |      `     |            |     \     |   Delete  |
+            bindings = <
                 &trans  &kp 1    &kp 2    &kp 3    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &kp 4    &kp 5    &kp 6    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &kp 7    &kp 8    &kp 9    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
