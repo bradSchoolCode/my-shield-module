@@ -4,6 +4,7 @@
 
 #define LAYER_0 0
 #define LAYER_1 1
+#define LAYER_2 2
 
 
 / {
